@@ -40,7 +40,7 @@ function getBestBeachName(results) {
 			total += 17;
 		}
 
-		if (beach.bathroom == 'si') {
+		if (beach.bathroom == 'si ') {
 			total += 33;
 		}
 
