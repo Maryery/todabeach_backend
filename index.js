@@ -3,7 +3,9 @@ const uri = 'mongodb://localhost:27017/todabeach';
 const client = new MongoClient(uri);
 
 const express = require('express');
+var cors = require('cors');
 const app = express();
+app.use(cors());
 const port = 3001;
 
 app.get('/', async (req, res) => {
